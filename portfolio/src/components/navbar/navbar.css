@@ -1,0 +1,46 @@
+nav {
+  padding: 10px 30px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.person {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.sebastian {
+  margin: 0px;
+}
+.person i {
+  font-size: 35px;
+}
+.person h1 {
+  font-size: 18px;
+}
+.items {
+  display: flex;
+  align-items: center;
+}
+.items ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin-right: 20px;
+}
+.items ul li button {
+  border: none;
+  background: white;
+}
+.items ul li button:hover {
+  color: red;
+  cursor: pointer;
+}
+.items .view {
+  padding: 8px 15px;
+  border-radius: 5px;
+  background: black;
+  color: white;
+  border: none;
+}
